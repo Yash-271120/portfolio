@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images:{
-    loader:"akamai",
-    path:"",
+  images: {
+        unoptimized: true
   },
   basePath:"/nextjs-portfolio-pages",
   assetPrefix:"/nextjs-portfolio-pages/",

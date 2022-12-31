@@ -73,39 +73,39 @@ export default function Home() {
               <AiFillLinkedin />
             </a>
           </div>
-          <div className=" relative bg-gradient-to-b from-teal-500 rounded-full overflow-hidden w-80 h-80 mt-20 mx-auto md:w-96 md:h-96">
+          <div className=" relative bg-gradient-to-b from-teal-500 rounded-full overflow-hidden w-52 h-52 sm:w-64 sm:h-64 mt-20 mx-auto md:w-72 md:h-72">
             <Image src={deved} fill objectFit="cover" alt="3D Model of Yash" />
           </div>
         </section>
 
-        <section className=" mt-80">
+        <section className=" mt-96">
           <div>
             <div className=" lg:flex gap-10">
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 basis-1/2 dark:bg-gray-400">
-                <h3 className="text-5xl py-1">Education</h3>
+                <h3 className="text-4xl sm:text-5xl py-1">Education</h3>
                 <div className=" my-4 mt-5">
-                  <h5 className="text-2xl">
+                  <h5 className="text-xl sm:text-2xl">
                     B.Tech (Metallurgical Engineering)
                   </h5>
                   <h6>Indian Institute of Technology</h6>
                   <h6>(IIT (BHU), Varanasi)</h6>
                   <h6>(2019-2023)</h6>
-                  <h6 className="text-xl">CGPA - 8.78</h6>
+                  <h6 className="text-l sm:text-xl">CGPA - 8.78</h6>
                 </div>
                 <div className=" my-4">
-                  <h5 className="text-2xl">12th State Board</h5>
+                  <h5 className="text-xl sm:text-2xl">12th State Board</h5>
                   <h6>(2017-2019)</h6>
-                  <h6 className="text-xl">Percentage - 80.15%</h6>
+                  <h6 className="text-l sm:text-xl">Percentage - 80.15%</h6>
                 </div>
                 <div className=" my-4">
-                  <h5 className="text-2xl">10th CBSE</h5>
+                  <h5 className="text-xl sm:text-2xl">10th CBSE</h5>
                   <h6>(before 2017)</h6>
-                  <h6 className="text-xl">CGPA - 10</h6>
+                  <h6 className="text-l sm:text-xl">CGPA - 10</h6>
                 </div>
               </div>
 
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 basis-1/2  dark:bg-gray-400">
-                <h3 className="text-5xl py-1">Experience</h3>
+                <h3 className="text-4xl sm:text-5xl py-1">Experience</h3>
                 <h5 className="text-2xl mb-3">
                   Udaan.com Software Engineer Intern (May 2021 - July-2021)
                 </h5>
@@ -143,11 +143,11 @@ export default function Home() {
             </div>
 
             <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
-                <h3 className="text-5xl py-1 dark:text-teal-500">Projects</h3>
+              <div className="text-center shadow-lg p-2 sm:p-10 rounded-xl my-10 ">
+                <h3 className="text-4xl sm:text-5xl py-1 dark:text-teal-500">Projects</h3>
                 <div className="lg:flex">
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
-                    <h5 className="text-4xl font-bold mb-3 mx-auto">Woodo</h5>
+                  <div className=" text-center dark:border-cyan-500 border-4 sm:border-none sm:shadow-lg p-1 sm:p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
+                    <h5 className="text-3xl sm:text-4xl font-bold mb-3 mx-auto">Woodo</h5>
                     <a
                       className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 my-20"
                       href="https://github.com/Yash-271120/Woodo"
@@ -165,8 +165,8 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
-                    <h5 className="text-4xl font-bold mb-3 mx-auto">
+                  <div className=" text-center dark:border-cyan-500 border-4 sm:border-none sm:shadow-lg p-1 sm:p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
+                    <h5 className="text-3xl sm:text-4xl font-bold mb-3 mx-auto">
                       E Commerece-Microservices
                     </h5>
                     <a
@@ -184,8 +184,8 @@ export default function Home() {
                 </div>
 
                 <div className="lg:flex">
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
-                    <h5 className="text-4xl font-bold mb-3 mx-auto">
+                  <div className=" text-center dark:border-cyan-500 border-4 sm:border-none sm:shadow-lg p-1 sm:p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
+                    <h5 className="text-3xl sm:text-4xl font-bold mb-3 mx-auto">
                       Job Scheduler Backend
                     </h5>
                     <a
@@ -203,8 +203,8 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
-                    <h5 className="text-4xl font-bold mb-3 mx-auto">
+                  <div className=" text-center dark:border-cyan-500 border-4 sm:border-none sm:shadow-lg p-1 sm:p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
+                    <h5 className="text-3xl sm:text-4xl font-bold mb-3 mx-auto">
                       Tesla Front-End Clone
                     </h5>
                     <a
@@ -231,10 +231,10 @@ export default function Home() {
         </section>
         <section>
           <div className=" text-center p-10 my-10 rounded-xl">
-            <h3 className="text-5xl py-1 font-bold dark:text-white">Skills</h3>
-            <h6 className=" lg:text-3xl dark:text-white">(Always ready to learn more)</h6>
+            <h3 className="text-4xl sm:text-5xl py-1 font-bold dark:text-white">Skills</h3>
+            <h6 className=" lg:text-xl dark:text-white text-xs sm:text-l">(Always ready to learn more)</h6>
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Languages</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Languages</h5>
               <div className="flex justify-center my-5 mr-5">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 lg:text-xl">
                   JavaScript
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Tools</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Tools</h5>
               <div className="flex justify-center my-5 mr-5 flex-wrap gap-6">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 mx-5 lg:text-xl">
                   Node JS
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Reverse Proxies</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Reverse Proxies</h5>
               <div className="flex justify-center my-5 mr-5 flex-wrap gap-6">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 mx-5 lg:text-xl">
                   Ngnix
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Devops Tools</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Devops Tools</h5>
               <div className="flex justify-center my-5 mr-5 flex-wrap gap-6">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 mx-5 lg:text-xl">
                   Docker
@@ -294,7 +294,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Databases</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Databases</h5>
               <div className="flex justify-center my-5 mr-5 flex-wrap gap-6">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 mx-5 lg:text-xl">
                   Mongo DB
@@ -303,7 +303,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h5 className="text-5xl py-5 font-semibold dark:text-white">Others</h5>
+              <h5 className="text-4xl sm:text-5xl py-5 font-semibold dark:text-white">Others</h5>
               <div className="flex justify-center my-5 mr-5 flex-wrap gap-6">
                 <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 mx-5 lg:text-xl">
                   HTML

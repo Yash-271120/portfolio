@@ -167,7 +167,7 @@ export default function Home() {
 
                   <div className=" text-center dark:border-cyan-500 border-4 sm:border-none sm:shadow-lg p-1 sm:p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
                     <h5 className="text-3xl sm:text-4xl font-bold mb-3 mx-auto">
-                      E Commerece-Microservices
+                      E Commerce-Microservices
                     </h5>
                     <a
                       className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 my-20"

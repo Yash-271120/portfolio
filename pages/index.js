@@ -143,10 +143,10 @@ export default function Home() {
             </div>
 
             <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
                 <h3 className="text-5xl py-1 dark:text-teal-500">Projects</h3>
                 <div className="lg:flex">
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400">
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
                     <h5 className="text-4xl font-bold mb-3 mx-auto">Woodo</h5>
                     <a
                       className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 my-20"
@@ -165,7 +165,7 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400">
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
                     <h5 className="text-4xl font-bold mb-3 mx-auto">
                       E Commerece-Microservices
                     </h5>
@@ -184,7 +184,7 @@ export default function Home() {
                 </div>
 
                 <div className="lg:flex">
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400">
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
                     <h5 className="text-4xl font-bold mb-3 mx-auto">
                       Job Scheduler Backend
                     </h5>
@@ -203,7 +203,7 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400">
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10 mx-5 basis-1/2  dark:bg-gray-400 break-all">
                     <h5 className="text-4xl font-bold mb-3 mx-auto">
                       Tesla Front-End Clone
                     </h5>

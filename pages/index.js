@@ -57,9 +57,7 @@ export default function Home() {
               Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
-              A self taught Developer with ability to do hardwork and stay
-              consistant. Looking to start a career as an entry-level
-              professional with a reputed IT company.
+              I am a driven and enthusiastic software developer with a passion for creating innovative solutions. As a recent graduate, I have a strong foundation in programming principles and a proven track record of successful projects. I am always looking to expand my skillset and take on new challenges, and I am eager to apply my knowledge and problem-solving abilities to real-world projects. Whether working independently or as part of a team, I am dedicated to delivering high-quality, user-friendly software that meets the needs of clients and end-users. I am excited to start my career and make a positive impact in the world of technology.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">

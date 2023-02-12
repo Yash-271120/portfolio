@@ -57,7 +57,16 @@ export default function Home() {
               Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
-              I am a driven and enthusiastic software developer with a passion for creating innovative solutions. As a recent graduate, I have a strong foundation in programming principles and a proven track record of successful projects. I am always looking to expand my skillset and take on new challenges, and I am eager to apply my knowledge and problem-solving abilities to real-world projects. Whether working independently or as part of a team, I am dedicated to delivering high-quality, user-friendly software that meets the needs of clients and end-users. I am excited to start my career and make a positive impact in the world of technology.
+              I am a driven and enthusiastic software developer with a passion
+              for creating innovative solutions. As a recent graduate, I have a
+              strong foundation in programming principles and a proven track
+              record of successful projects. I am always looking to expand my
+              skillset and take on new challenges, and I am eager to apply my
+              knowledge and problem-solving abilities to real-world projects.
+              Whether working independently or as part of a team, I am dedicated
+              to delivering high-quality, user-friendly software that meets the
+              needs of clients and end-users. I am excited to start my career
+              and make a positive impact in the world of technology.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -79,7 +88,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className=" mt-96">
+        <section className=" mt-[800px] md:mt-[500px]">
           <div>
             <div className=" lg:flex gap-10">
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 basis-1/2 dark:bg-gray-400">

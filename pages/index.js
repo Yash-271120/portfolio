@@ -49,7 +49,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className=" text-center p-10">
+          <div className=" text-center py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400">
               Yash Patil
             </h2>
@@ -83,7 +83,7 @@ export default function Home() {
               <AiFillLinkedin />
             </a>
           </div>
-          <div className=" relative bg-gradient-to-b from-teal-500 rounded-full overflow-hidden w-52 h-52 sm:w-64 sm:h-64 mt-20 mx-auto md:w-72 md:h-72">
+          <div className=" relative  bg-gradient-to-b from-teal-500 rounded-full overflow-hidden w-52 h-52 sm:w-64 sm:h-64 mt-20 mx-auto md:w-72 md:h-72">
             <Image src={deved} fill objectFit="cover" alt="3D Model of Yash" />
           </div>
         </section>

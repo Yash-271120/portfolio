@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  solidity,
+  udaan,
+  bizup,
+  swupelpms,
+  woodo,
+  imagegallery,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web3 Developer",
     icon: creator,
   },
 ];
@@ -97,8 +95,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Solidity",
+    icon: solidity,
   },
   {
     name: "git",
@@ -116,54 +114,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Udaan",
+    icon: udaan,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a time-tracking solution for monitoring human worker activities in a warehouse environment.",
+      "Implemented event triggering from the frontend using React, enabling efficient data capture.",
+      "Integrated Mixpanel for real-time data analysis, enhancing decision-making processes.",
+      "Collaborated closely with the robotics team to establish seamless communication between warehouse operations and robotics microservices.",
+      "Implemented robust error-handling mechanisms to ensure error-free data transfer, optimizing warehouse efficiency and accuracy.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer",
+    company_name: "SwupelPMS",
+    icon: swupelpms,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team of developers to redesign and optimize the Swupelpms brand website.",
+      "Played a key role in enhancing the overall performance and user experience of the website.",
+      "Contributed to the development of the Swupelpms blockchain, utilizing C++.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Engineer",
+    company_name: "Bizup",
+    icon: bizup,
+    iconBg: "#383E56",
+    date: "Jun 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed an AI-powered chat functionality for a web application (MVP) that empowered sellers to create, add, and share catalog links with buyers.",
+      "Implemented advanced analytics for performance tracking and business growth, providing valuable insights.",
+      "Currently working on a product in React Native for Android and iOS platforms that assists sellers with seamless onboarding, efficient profile management, and easy uploading and sharing of new catalog and video ads.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -172,59 +157,48 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working closely with Yash during their internship was truly rewarding. He consistently demonstrated a strong commitment to learning and a keen problem-solving ability, contributing significantly to our projects",
+    name: "Kartik Yadav",
+    designation: "Software Engineer",
+    company: "Udaan",
+    image:
+      "https://media.licdn.com/dms/image/C5103AQEhi4eIhLpM2g/profile-displayphoto-shrink_200_200/0/1540023111952?e=1700092800&v=beta&t=vG8lIWtZ5jXVUk2ytL8YhwjxtawRotN1pc2Ty1UXzio",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Woodo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to buy furniture and home decor items from a wide range of furniture options.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: woodo,
+    source_code_link: "https://github.com/Yash-271120/Woodo",
   },
   {
-    name: "Job IT",
+    name: "Image Gallery",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive image gallery that allows users to search for images and view them in a grid layout.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +206,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: imagegallery,
+    source_code_link: "https://github.com/Yash-271120/Image-Gallery",
   },
 ];
 

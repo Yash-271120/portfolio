@@ -1,0 +1,33 @@
+
+#burst-8 {
+    background: #fff8eb;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    transform: rotate(20deg);
+    z-index: 1;
+  }
+  #burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    background: #fff8eb;
+    transform: rotate(135deg);
+    z-index: 1;
+  }
+
+  #polygon-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    position: relative;
+    bottom: 80px;
+    right: -8px;
+    z-index: 2;
+  }

@@ -21,6 +21,7 @@ import {
   swupelpms,
   woodo,
   imagegallery,
+  decentralAmazon
 } from "../assets";
 
 export const navLinks = [
@@ -164,6 +165,15 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/C5103AQEhi4eIhLpM2g/profile-displayphoto-shrink_200_200/0/1540023111952?e=1700092800&v=beta&t=vG8lIWtZ5jXVUk2ytL8YhwjxtawRotN1pc2Ty1UXzio",
   },
+  {
+    testimonial:
+      "With Yash being a capable, conscientious and overall well rounded programmer, collaboration is not only a pleasure on the technical side but also always fun and enjoyable due to his down to earth nature and open communication.",
+    name: "Anton Graller",
+    designation: "Founder",
+    company: "SwupelPMS",
+    image:
+      "https://cdn.discordapp.com/avatars/773924328122875926/261b94a96330963f712347ab6453ce41.webp?size=80",
+  },
 ];
 
 const projects = [
@@ -191,6 +201,31 @@ const projects = [
     ],
     image: woodo,
     source_code_link: "https://github.com/Yash-271120/Woodo",
+  },
+  {
+    name: "Decentral Amazon",
+    description:
+      "A decentralized e-commerce platform that allows users to buy products using Ethereum. The platform is powered by IPFS and smart contracts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ipfs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: decentralAmazon,
+    source_code_link: "https://github.com/Yash-271120/decentral-amazon",
   },
   {
     name: "Image Gallery",

@@ -30,6 +30,7 @@ import swupelpms from "./company/swupelpms.png";
 
 import woodo from "./woodo.png";
 import imagegallery from "./imagegallery.png";
+import decentralAmazon from "./decentralAmazon.png";
 
 export {
   logoY,
@@ -61,4 +62,5 @@ export {
   swupelpms,
   woodo,
   imagegallery,
+  decentralAmazon
 };

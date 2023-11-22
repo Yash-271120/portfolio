@@ -23,6 +23,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import solidity from "./tech/solidity.svg";
+import golang from "./tech/golang.png";
 
 import bizup from "./company/bizup.png";
 import udaan from "./company/udaan.png";
@@ -57,6 +58,7 @@ export {
   tailwind,
   typescript,
   solidity,
+  golang,
   bizup,
   udaan,
   swupelpms,

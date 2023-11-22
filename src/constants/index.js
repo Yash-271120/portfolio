@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   solidity,
+  golang,
   udaan,
   bizup,
   swupelpms,
@@ -100,6 +101,10 @@ const technologies = [
     icon: solidity,
   },
   {
+    name: "Golang",
+    icon: golang,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -147,9 +152,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jun 2023 - Present",
     points: [
-      "Developed an AI-powered chat functionality for a web application (MVP) that empowered sellers to create, add, and share catalog links with buyers.",
-      "Implemented advanced analytics for performance tracking and business growth, providing valuable insights.",
-      "Currently working on a product in React Native for Android and iOS platforms that assists sellers with seamless onboarding, efficient profile management, and easy uploading and sharing of new catalog and video ads.",
+      "Owned and managed all aspects of company AI bots, including the Salesman Bot(v1-v4) and the Agent Bot, taking full responsibility for their performance.",
+      "Implemented innovative features, such as seller and catalog recommendations based on user chat interactions, and designed a scalable architecture to ensure optimal functionality and accommodate future growth",
+      "Took complete ownership and management of the BizUp Studio app, developed using React Native for both Android and iOS platforms.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -163,7 +168,7 @@ const testimonials = [
     designation: "Software Engineer",
     company: "Udaan",
     image:
-      "https://media.licdn.com/dms/image/C5103AQEhi4eIhLpM2g/profile-displayphoto-shrink_200_200/0/1540023111952?e=1700092800&v=beta&t=vG8lIWtZ5jXVUk2ytL8YhwjxtawRotN1pc2Ty1UXzio",
+      "https://media.licdn.com/dms/image/C5103AQEhi4eIhLpM2g/profile-displayphoto-shrink_800_800/0/1540023137683?e=1706140800&v=beta&t=k04MXm7Ef3NBm9D4dtV2Zbszkl9rVIc1Z25K7zvSY9E",
   },
   {
     testimonial:

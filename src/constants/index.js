@@ -17,12 +17,16 @@ import {
   docker,
   solidity,
   golang,
+  anchor,
+  rust,
+  nextjs,
   udaan,
   bizup,
   swupelpms,
   woodo,
-  imagegallery,
-  decentralAmazon
+  solChirp,
+  decentralAmazon,
+  nbaSwap,
 } from "../assets";
 
 export const navLinks = [
@@ -61,24 +65,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -112,6 +108,14 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Rust",
+    icon: rust,
+  },
+  {
+    name: "anchor",
+    icon: anchor,
+  },
 ];
 
 const experiences = [
@@ -134,7 +138,7 @@ const experiences = [
     company_name: "SwupelPMS",
     icon: swupelpms,
     iconBg: "#383E56",
-    date: "May 2023 - Present",
+    date: "May 2023 - Jan 2024",
     points: [
       "Collaborated with a team of developers to redesign and optimize the Swupelpms brand website.",
       "Played a key role in enhancing the overall performance and user experience of the website.",
@@ -229,25 +233,66 @@ const projects = [
     source_code_link: "https://github.com/Yash-271120/decentral-amazon",
   },
   {
-    name: "Image Gallery",
+    name: "Sol Chirp",
     description:
-      "A comprehensive image gallery that allows users to search for images and view them in a grid layout.",
+      "A mini twitter clone that runs on the Solana blockchain. Users can post tweets and tip other users using the SPL token.",
     tags: [
       {
-        name: "reactjs",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "anchor",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "solana",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "spl tokens",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: solChirp,
+    source_code_link: "https://github.com/Yash-271120/sol-chirp",
+  },
+  {
+    name: "NBA Swap",
+    description:
+      "A swap platform that allows users to swap NBA team tokens. People can also fund the liquidity pool. Implemented a constant product market maker algorithm. Deployed the smart contract on the solana devnet",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "anchor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solana",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "spl tokens",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AMM",
         color: "pink-text-gradient",
       },
     ],
-    image: imagegallery,
-    source_code_link: "https://github.com/Yash-271120/Image-Gallery",
+    image: nbaSwap,
+    source_code_link: "https://github.com/Yash-271120/nba-swap",
   },
 ];
 

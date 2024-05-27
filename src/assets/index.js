@@ -24,14 +24,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import solidity from "./tech/solidity.svg";
 import golang from "./tech/golang.png";
+import rust from "./tech/rust.png";
+import anchor from "./tech/anchor.png";
+import nextjs from "./tech/nextjs.png";
 
 import bizup from "./company/bizup.png";
 import udaan from "./company/udaan.png";
 import swupelpms from "./company/swupelpms.png";
 
 import woodo from "./woodo.png";
-import imagegallery from "./imagegallery.png";
+import solChirp from "./solChirp.png";
 import decentralAmazon from "./decentralAmazon.png";
+import nbaSwap from "./nbaSwap.png";
 
 export {
   logoY,
@@ -54,15 +58,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
   solidity,
   golang,
+  anchor,
+  rust,
   bizup,
   udaan,
   swupelpms,
   woodo,
-  imagegallery,
-  decentralAmazon
+  solChirp,
+  decentralAmazon,
+  nbaSwap,
 };

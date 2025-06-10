@@ -22,11 +22,13 @@ import {
   nextjs,
   udaan,
   bizup,
+  h1,
   swupelpms,
   woodo,
   solChirp,
   decentralAmazon,
   nbaSwap,
+  fearlessScan
 } from "../assets";
 
 export const navLinks = [
@@ -150,7 +152,7 @@ const experiences = [
     company_name: "Bizup",
     icon: bizup,
     iconBg: "#383E56",
-    date: "Jun 2023 - Present",
+    date: "Jun 2023 - Sept 2024",
     points: [
       "Owned and managed all aspects of company AI bots, including the Salesman Bot(v1-v4) and the Agent Bot, taking full responsibility for their performance.",
       "Implemented innovative features, such as seller and catalog recommendations based on user chat interactions, and designed a scalable architecture to ensure optimal functionality and accommodate future growth",
@@ -158,6 +160,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Software Engineer",
+    company_name: "H1",
+    icon: h1,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Present",
+    points: [
+      "Led end-to-end development of the Care Clusters feature, which grouped related ICD and procedure codes to simplify complex medical code searches; implemented data pipelines using Spark on EMR, orchestrated with Argo Workflows and Airfflow, and built Elasticsearch indexes to power autocomplete and advanced filters, improving discoverability and user efficiency.",
+      "Developed an AI-powered chat interface on the doctor profile page, enabling users to ask natural language questions about healthcare providers (HCPs); backed by an LLM and MCP server querying Elasticsearch for real-time, relevant answers.",
+      "Extended platform-wide search functionality to support advanced boolean operators (AND, OR, BOTH) for complex keyword queries.",
+      "Engineered a query parsing service that converts deeply nested operator queries into a tree structure, enhancing backend query handling.",
+    ],
+  }
 ];
 
 const testimonials = [
@@ -294,6 +309,27 @@ const projects = [
     image: nbaSwap,
     source_code_link: "https://github.com/Yash-271120/nba-swap",
   },
+  {
+    name: "Fearless Scan",
+    description:
+      "A very fast file explorer that aims to beat windows file explorer in terms of speed",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tauri",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: fearlessScan,
+    source_code_link: "https://github.com/Yash-271120/FearlessScan",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -31,11 +31,13 @@ import nextjs from "./tech/nextjs.png";
 import bizup from "./company/bizup.png";
 import udaan from "./company/udaan.png";
 import swupelpms from "./company/swupelpms.png";
+import h1 from "./company/h1.png";
 
 import woodo from "./woodo.png";
 import solChirp from "./solChirp.png";
 import decentralAmazon from "./decentralAmazon.png";
 import nbaSwap from "./nbaSwap.png";
+import fearlessScan from "./fearlessScan.png";
 
 export {
   logoY,
@@ -68,9 +70,11 @@ export {
   rust,
   bizup,
   udaan,
+  h1,
   swupelpms,
   woodo,
   solChirp,
   decentralAmazon,
   nbaSwap,
+  fearlessScan,
 };
